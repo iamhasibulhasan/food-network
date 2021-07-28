@@ -1,0 +1,134 @@
+body{
+    font-family: 'Comfortaa', cursive;
+    margin: 0;
+}
+
+h1{
+    font-size: 40px;
+}
+h2{
+    font-size: 40px;
+}
+section{
+    margin-bottom: 100px;
+}
+
+.orange{
+    color: orangered;
+}
+.flexiable{
+    display: flex;
+} 
+
+.half-width{
+    padding-left: 8%;
+    width: 50%;
+}
+.half-width img{
+    width: 80%;
+}
+
+p{
+    line-height: 30px;
+}
+
+.half-width .person{
+    width: 60%;
+}
+
+#order_btn{
+    padding: 20px 30px;
+    color: white;
+    background-image: linear-gradient(to right, orange, tomato);
+    text-decoration: none;
+    font-weight: 700;
+    border-radius: 30px;
+}
+
+.about-me{
+    background-image: url(/image/about-bg.png);
+    background-repeat: no-repeat;
+}
+
+.recipes-top{
+    text-align: center;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-bottom: 20px;
+}
+.recipes{
+    display: flex;
+    width: 90%;
+    margin: auto;
+}
+.recipes-item{
+    padding: 25px 25px;
+    width: 33%;
+    box-shadow: 5px 5px 40px grey;
+    margin-left: 2%;
+    margin-right: 2%;
+    border-radius: 20px;
+    padding-left: 20px;
+}
+.recipes-item img{
+    width: 100%;
+}
+.sub{
+    display: flex;
+    width: 90%;
+    margin: auto;
+    text-align: center;
+}
+.sub-item{
+    width: 33.33%; 
+}
+.my-sub{
+    width: 85%;
+    box-shadow: 2px 2px 20px grey;
+    border-radius: 20px;
+    margin: 100px auto;
+}
+.sub h1{
+    font-size: 30px;
+    font-family: compact;
+}
+
+.partner{
+    display: flex;
+    width: 90%;
+    margin: 0px auto;
+    text-align: center;
+    padding-left: 10%;
+}
+
+.partner img{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+}
+.partner a{
+    text-decoration: none;
+    background-color: burlywood;
+    padding: 10px;
+    border-radius: 5px;
+    color: black;
+}
+.my-partner h2{
+    text-align: center;
+}
+.partner-item{
+    text-align: center;
+    padding: 30px;
+}
+
+
+footer h4{
+    text-transform: uppercase;
+    font-size: 20px;
+}
+footer{
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 10px;
+}
